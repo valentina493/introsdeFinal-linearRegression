@@ -16,7 +16,7 @@ public class LinearFitterApp {
     }
 
     public static ResourceConfig createApp() {
-        System.out.println("Starting REST quotes services...");
+        System.out.println("Starting REST linear fitter services...");
         return new LinearFitterApplicationConfig();
     }
 }
